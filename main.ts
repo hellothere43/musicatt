@@ -37,6 +37,7 @@ music.stopAllSounds()
         music.playTone(Note.Bb5, music.beat(BeatFraction.Quarter))
         
 
+
     } else if (input.buttonIsPressed(Button.A)) {
     	
     } else if (input.buttonIsPressed(Button.B)) {
@@ -77,34 +78,26 @@ music.stopAllSounds()
         music.playTone(Note.A3, music.beat(BeatFraction.Quarter))
         music.rest(music.beat(BeatFraction.Quarter))
 
-//Line 2
-        music.rest(music.beat(BeatFraction.Eighth))
-        music.playTone(Note.D, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.A3, music.beat(BeatFraction.Eighth))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
-        music.playTone(Note.E, music.beat(BeatFraction.Quarter))
+            //mesure 3
+            music.playTone(Note.A3, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.A3, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.A3, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.A3, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.C, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.E, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.D, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.C, music.beat(BeatFraction.Eighth))
 
-    }
-})
+//mesure 4
+            music.playTone(Note.A3, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.A3, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.A3, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.A3, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.C, music.beat(BeatFraction.Eighth))
+            music.playTone(Note.D, music.beat(BeatFraction.Quarter))
+            music.playTone(Note.E, music.beat(BeatFraction.Quarter))
+
+}
+
+}
+)
